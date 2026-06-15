@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>新加坡服务器租用 | 新加坡云服务器 | CN2优化线路高防服务器 - 1BGP</title>
+    <meta name="description" content="专业提供新加坡服务器租用、新加坡云服务器、东南亚原生IP服务器。接入电信CN2 GIA及BGP多线优化网络，国内直连超低延迟，出海电商与游戏运营首选。">
+    <meta name="keywords" content="新加坡服务器, 新加坡云服务器, 新加坡物理机, CN2服务器, 东南亚服务器, 优化线路, BGP多线">
+    
+    <!-- 引入 Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- 引入图标库 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- 自定义配置 -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0f766e', // 祖母绿 (区分于美国的深蓝，更有东南亚的热带科技感)
+                        secondary: '#0ea5e9', // 青蓝
+                        accent: '#f43f5e', // 强调色(玫瑰红)
+                        darkbg: '#0f172a'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .hero-bg {
+            /* 使用新加坡滨海湾金沙酒店的城市夜景作为背景 */
+            background: linear-gradient(rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.9)), url('https://images.unsplash.com/photo-1525625293386-3f8f99389edd?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80') center/cover;
+        }
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans text-gray-800">
+
+    <!-- 顶部信息栏 -->
+    <div class="bg-[#0b0f19] text-gray-300 text-sm py-2 border-b border-gray-800">
+        <div class="container mx-auto px-4 flex flex-wrap justify-between items-center max-w-7xl">
+            <div class="flex space-x-6 items-center">
+                <span><i class="fa-solid fa-phone mr-2"></i>+1 (256) 7331188</span>
+                <span><i class="fa-regular fa-envelope mr-2"></i>support@1bgp.com</span>
+            </div>
+            <div class="flex space-x-4 mt-2 sm:mt-0 items-center">
+                <a href="https://t.me/twbyte_tom" target="_blank" class="hover:text-blue-400 transition"><i class="fa-brands fa-telegram mr-1"></i>在线客服</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 主导航栏 -->
+    <header class="bg-[#0f172a] text-white sticky top-0 z-50 shadow-lg">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center max-w-7xl">
+            <!-- Logo区 -->
+            <a href="https://www.1bgp.com/" class="text-3xl font-bold tracking-wider text-white mr-8">
+                BGP
+            </a>
+            
+            <!-- 导航链接 (居中并加宽间距) -->
+            <nav class="hidden md:flex flex-1 justify-center space-x-12 font-medium text-[15px]">
+                <a href="https://www.1bgp.com/" class="text-secondary relative after:content-[''] after:absolute after:-bottom-2 after:left-0 after:w-full after:h-0.5 after:bg-secondary">首页</a>
+                <a href="https://www.1bgp.com/index/server/" class="hover:text-secondary transition relative group">
+                    云服务器
+                    <span class="absolute -bottom-2 left-0 w-0 h-0.5 bg-secondary transition-all group-hover:w-full"></span>
+                </a>
+                <a href="https://www.1bgp.com/index/server/" class="hover:text-secondary transition relative group">
+                    新加坡裸金属
+                    <span class="absolute -bottom-2 left-0 w-0 h-0.5 bg-secondary transition-all group-hover:w-full"></span>
+                </a>
+                <a href="https://www.1bgp.com/index/server/" class="hover:text-secondary transition relative group">
+                    高防服务器
+                    <span class="absolute -bottom-2 left-0 w-0 h-0.5 bg-secondary transition-all group-hover:w-full"></span>
+                </a>
+                <a href="https://www.1bgp.com/index/server/" class="hover:text-secondary transition relative group">
+                    特价专区
+                    <span class="absolute -top-3 -right-6 bg-accent text-white text-[10px] px-1.5 py-0.5 rounded animate-pulse">HOT</span>
+                    <span class="absolute -bottom-2 left-0 w-0 h-0.5 bg-secondary transition-all group-hover:w-full"></span>
+                </a>
+            </nav>
+            
+            <!-- 登录/注册/CTA按钮区 -->
+            <div class="hidden md:flex items-center space-x-3 ml-8">
+                <a href="https://www.1bgp.com/user/index/login.html" class="text-gray-300 hover:text-white px-3 py-2 font-medium transition">
+                    登录
+                </a>
+                <a href="https://www.1bgp.com/user/index/register.html" class="bg-transparent border border-gray-500 hover:border-white text-white px-4 py-1.5 rounded font-medium transition">
+                    注册
+                </a>
+                <a href="https://www.1bgp.com/index/server/" class="bg-primary hover:bg-teal-600 text-white px-5 py-1.5 rounded font-medium transition shadow-lg shadow-teal-500/20 ml-2">
+                    控制台
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- 英雄区域 (Hero) -->
+    <section class="hero-bg text-white py-24 md:py-32">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">亚太数字枢纽，CN2 直连极速体验</h1>
+            <p class="text-lg md:text-xl text-gray-300 mb-10 max-w-3xl mx-auto">
+                依托新加坡 T4 级别旗舰数据中心，融合电信 CN2 GIA 与国际 BGP 优化线路。<br>
+                东南亚与国内双向极速互访，为出海游戏、跨境电商提供最坚实的底层算力。
+            </p>
+            <div class="flex justify-center space-x-4">
+                <a href="https://www.1bgp.com/index/server/" class="bg-primary hover:bg-teal-600 text-white px-8 py-3 rounded-md text-lg font-medium transition shadow-lg shadow-teal-500/30">
+                    立即部署
+                </a>
+                <a href="https://t.me/twbyte_tom" target="_blank" class="bg-transparent border border-gray-400 hover:border-white hover:bg-white hover:text-darkbg text-white px-8 py-3 rounded-md text-lg font-medium transition">
+                    获取测试 IP
+                </a>
+            </div>
+            
+            <!-- 核心参数条 -->
+            <div class="mt-16 grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto text-center border-t border-gray-700 pt-8">
+                <div>
+                    <div class="text-3xl font-bold text-teal-400 mb-1">≈ 45ms</div>
+                    <div class="text-gray-400 text-sm">华南地区直连延迟</div>
+                </div>
+                <div>
+                    <div class="text-3xl font-bold text-teal-400 mb-1">BGP</div>
+                    <div class="text-gray-400 text-sm">多线智能路由优化</div>
+                </div>
+                <div>
+                    <div class="text-3xl font-bold text-teal-400 mb-1">100%</div>
+                    <div class="text-gray-400 text-sm">原生 IP 覆盖</div>
+                </div>
+                <div>
+                    <div class="text-3xl font-bold text-teal-400 mb-1">T4级</div>
+                    <div class="text-gray-400 text-sm">国际最高机房标准</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 热销新加坡服务器产品 -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">新加坡服务器精选配置</h2>
+                <p class="text-gray-600">无论是轻量级站点，还是大型游戏服务端，总有一款配置满足您的出海需求</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <!-- 产品卡片 1 -->
+                <div class="bg-white rounded-xl shadow-lg border border-gray-100 overflow-hidden card-hover">
+                    <div class="bg-teal-50 p-6 border-b border-gray-100 text-center relative">
+                        <span class="absolute top-0 right-0 bg-accent text-white text-xs px-3 py-1 rounded-bl-lg">出海入门</span>
+                        <h3 class="text-xl font-bold text-primary mb-2">新加坡 CN2 云服务器</h3>
+                        <p class="text-gray-500 text-sm">适合个人站长 / 东南亚独立站</p>
+                        <div class="mt-4 text-3xl font-bold text-gray-900">¥ 39.00<span class="text-base font-normal text-gray-500">/月起</span></div>
+                    </div>
+                    <div class="p-6">
+                        <ul class="space-y-3 mb-8 text-gray-600">
+                            <li><i class="fa-solid fa-check text-primary mr-2"></i>CPU：2 核 (AMD EPYC)</li>
+                            <li><i class="fa-solid fa-check text-primary mr-2"></i>内存：2 GB</li>
+                            <li><i class="fa-solid fa-check text-primary mr-2"></i>硬盘：40G 高速 NVMe</li>
+                            <li><i class="fa-solid fa-check text-primary mr-2"></i>线路：电信 CN2 + BGP</li>
+                            <li><i class="fa-solid fa-check text-primary mr-2"></i>IP：1个新加坡原生 IP</li>
+                        </ul>
+                        <a href="https://www.1bgp.com/index/server/" class="block w-full bg-gray-800 hover:bg-gray-900 text-white text-center py-3 rounded-md font-medium transition">立即开通</a>
+                    </div>
+                </div>
+
+                <!-- 产品卡片 2 -->
+                <div class="bg-white rounded-xl shadow-xl border-2 border-primary overflow-hidden card-hover relative transform md:-translate-y-4">
+                    <div class="bg-primary p-6 text-center text-white">
+                        <span class="absolute top-0 right-0 bg-accent text-white text-xs px-3 py-1 rounded-bl-lg">游戏/直播首选</span>
+                        <h3 class="text-xl font-bold mb-2">新加坡独立物理机</h3>
+                        <p class="text-teal-100 text-sm">适合高并发网游 / 跨境电商矩阵</p>
+                        <div class="mt-4 text-3xl font-bold">¥ 699.00<span class="text-base font-normal text-teal-200">/月起</span></div>
+                    </div>
+                    <div class="p-6">
+                        <ul class="space-y-3 mb-8 text-gray-600">
+                            <li><i class="fa-solid fa-check text-primary mr-2"></i>CPU：E5-2680 v4 (14核28线程)</li>
+                            <li><i class="fa-solid fa-check text-primary mr-2"></i>内存：32 GB DDR4</li>
+                            <li><i class="fa-solid fa-check text-primary mr-2"></i>硬盘：1TB SSD 企业级</li>
+                            <li><i class="fa-solid fa-check text-primary mr-2"></i>网络：30M CN2 独享宽带</li>
+                            <li><i class="fa-solid fa-check text-primary mr-2"></i>路由：三网回国智能优化</li>
+                        </ul>
+                        <a href="https://www.1bgp.com/index/server/" class="block w-full bg-primary hover:bg-teal-600 text-white text-center py-3 rounded-md font-medium transition">立即选购</a>
+                    </div>
+                </div>
+
+                <!-- 产品卡片 3 -->
+                <div class="bg-white rounded-xl shadow-lg border border-gray-100 overflow-hidden card-hover">
+                    <div class="bg-gray-50 p-6 border-b border-gray-100 text-center">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">新加坡大带宽服务器</h3>
+                        <p class="text-gray-500 text-sm">适合流媒体 / 视频分发CDN节点</p>
+                        <div class="mt-4 text-3xl font-bold text-gray-900">¥ 1299.00<span class="text-base font-normal text-gray-500">/月起</span></div>
+                    </div>
+                    <div class="p-6">
+                        <ul class="space-y-3 mb-8 text-gray-600">
+                            <li><i class="fa-solid fa-check text-primary mr-2"></i>CPU：双路 E5-2690 v3</li>
+                            <li><i class="fa-solid fa-check text-primary mr-2"></i>内存：64 GB DDR4</li>
+                            <li><i class="fa-solid fa-check text-primary mr-2"></i>防御：20G 基础清洗能力</li>
+                            <li><i class="fa-solid fa-check text-primary mr-2"></i>带宽：100M 国际BGP独享</li>
+                            <li><i class="fa-solid fa-check text-primary mr-2"></i>流量：不限流量</li>
+                        </ul>
+                        <a href="https://www.1bgp.com/index/server/" class="block w-full bg-gray-800 hover:bg-gray-900 text-white text-center py-3 rounded-md font-medium transition">立即购买</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 为什么选择我们 (核心优势) -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">为什么选择我们的新加坡节点？</h2>
+                <p class="text-gray-600">采用前沿多网融合技术，专为解决跨境网络延迟与丢包痛点而生</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
+                <div class="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition text-center border border-gray-100">
+                    <div class="w-16 h-16 bg-teal-50 text-primary rounded-full flex items-center justify-center text-2xl mx-auto mb-6">
+                        <i class="fa-solid fa-route"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-800">CN2+BGP 优化线路</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">去程走各大运营商骨干，回程强制路由电信 CN2 GIA，确保全天候网络畅通，告别晚高峰卡顿。</p>
+                </div>
+                
+                <div class="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition text-center border border-gray-100">
+                    <div class="w-16 h-16 bg-teal-50 text-primary rounded-full flex items-center justify-center text-2xl mx-auto mb-6">
+                        <i class="fa-solid fa-globe"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-800">辐射东南亚网络</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">直连马来西亚、泰国、印尼、越南等东南亚核心交换中心，跨国互访延迟极低，出海首选。</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition text-center border border-gray-100">
+                    <div class="w-16 h-16 bg-teal-50 text-primary rounded-full flex items-center justify-center text-2xl mx-auto mb-6">
+                        <i class="fa-solid fa-address-card"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-800">纯净原生 IP</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">提供新加坡本土广播的原生 IPv4，完美解锁当地流媒体、TikTok 直播矩阵及本土电商平台防关联。</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition text-center border border-gray-100">
+                    <div class="w-16 h-16 bg-teal-50 text-primary rounded-full flex items-center justify-center text-2xl mx-auto mb-6">
+                        <i class="fa-solid fa-microchip"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-800">全自动化交付</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">免装机流程，控制台一键安装系统镜像、完成网络配置、在线重启重装，真正实现即买即用。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEO 资讯引流区 (高度参考 zhwj365 模式) -->
+    <section class="py-20 bg-white border-t border-gray-100">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-end mb-10 max-w-6xl mx-auto">
+                <div>
+                    <h2 class="text-3xl font-bold text-gray-900 mb-2">东南亚出海与服务器实战指南</h2>
+                    <p class="text-gray-600">深剖行业痛点，为您提供最新加坡机房评测、CN2线路解析与出海技术干货</p>
+                </div>
+                <a href="https://www.1bgp.com/" class="hidden md:inline-block text-primary hover:text-teal-800 font-medium">查看更多 <i class="fa-solid fa-arrow-right text-sm"></i></a>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+                <!-- 资讯 1 -->
+                <a href="https://www.1bgp.com/" class="group block bg-gray-50 rounded-lg p-6 border border-gray-100 hover:border-teal-200 hover:bg-teal-50 transition">
+                    <h3 class="text-lg font-bold text-gray-900 mb-3 group-hover:text-primary transition">东南亚服务器在哪里买？新加坡 CN2 线路与普通 BGP 延迟全网测评</h3>
+                    <p class="text-gray-600 text-sm mb-4 line-clamp-2">很多游戏厂商和跨境团队都在问东南亚服务器该怎么选。本文通过对新加坡本地机房的长期在线监测数据，揭示了 CN2 GIA 回国优化线路与普通国际 BGP 线路在晚高峰时段的丢包率和延迟波动差异，帮助您避开“假直连”陷阱...</p>
+                    <div class="text-xs text-gray-400 flex items-center">
+                        <i class="fa-regular fa-clock mr-1"></i> 2026-06-14 
+                        <span class="mx-2">|</span> 
+                        <i class="fa-regular fa-folder mr-1"></i> 线路测评
+                    </div>
+                </a>
+
+                <!-- 资讯 2 -->
+                <a href="https://www.1bgp.com/" class="group block bg-gray-50 rounded-lg p-6 border border-gray-100 hover:border-teal-200 hover:bg-teal-50 transition">
+                    <h3 class="text-lg font-bold text-gray-900 mb-3 group-hover:text-primary transition">新兴企业如何利用新加坡原生 IP 降低 TikTok 与 Shopee 运营门槛</h3>
+                    <p class="text-gray-600 text-sm mb-4 line-clamp-2">在做 TikTok 东南亚店或 Shopee 本土店时，IP 质量直接决定了账号的生死。广播 IP 极易被风控，而新加坡原生 IP (Native IP) 则能模拟最真实的当地用户环境。本文分享多账号防关联矩阵搭建的实战经验...</p>
+                    <div class="text-xs text-gray-400 flex items-center">
+                        <i class="fa-regular fa-clock mr-1"></i> 2026-06-11 
+                        <span class="mx-2">|</span> 
+                        <i class="fa-regular fa-folder mr-1"></i> 跨境电商
+                    </div>
+                </a>
+
+                <!-- 资讯 3 -->
+                <a href="https://www.1bgp.com/" class="group block bg-gray-50 rounded-lg p-6 border border-gray-100 hover:border-teal-200 hover:bg-teal-50 transition">
+                    <h3 class="text-lg font-bold text-gray-900 mb-3 group-hover:text-primary transition">台服/东南亚服游戏卡顿？深究 BGP 智能路由优化的底层逻辑</h3>
+                    <p class="text-gray-600 text-sm mb-4 line-clamp-2">玩家常常抱怨连台服或东南亚服延迟高。其实这通常是由跨境路由绕路导致的。选择具备优质 BGP 多线接入的新加坡节点，能自动为用户匹配最优网络路径。本文由资深运维工程师为您解析游戏出海如何选择高可用网络架构...</p>
+                    <div class="text-xs text-gray-400 flex items-center">
+                        <i class="fa-regular fa-clock mr-1"></i> 2026-06-09 
+                        <span class="mx-2">|</span> 
+                        <i class="fa-regular fa-folder mr-1"></i> 游戏出海
+                    </div>
+                </a>
+
+                <!-- 资讯 4 -->
+                <a href="https://www.1bgp.com/" class="group block bg-gray-50 rounded-lg p-6 border border-gray-100 hover:border-teal-200 hover:bg-teal-50 transition">
+                    <h3 class="text-lg font-bold text-gray-900 mb-3 group-hover:text-primary transition">企业如何评估新加坡机房的高防能力与合规性？</h3>
+                    <p class="text-gray-600 text-sm mb-4 line-clamp-2">面对日益猖獗的 DDoS 和 CC 攻击，部署在海外的业务更需要坚固的护城河。选择新加坡高防服务器时，我们需要从清洗算法、防御带宽峰值以及 T4 建设标准等多个维度去考察供应商的真实实力...</p>
+                    <div class="text-xs text-gray-400 flex items-center">
+                        <i class="fa-regular fa-clock mr-1"></i> 2026-06-05 
+                        <span class="mx-2">|</span> 
+                        <i class="fa-regular fa-folder mr-1"></i> 安全防护
+                    </div>
+                </a>
+            </div>
+            
+            <div class="mt-8 text-center md:hidden">
+                <a href="https://www.1bgp.com/" class="inline-block bg-gray-100 text-gray-700 hover:bg-gray-200 px-6 py-2 rounded-md font-medium">查看更多文章</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 底部页脚 -->
+    <footer class="bg-darkbg text-gray-400 pt-16 pb-8 border-t border-gray-800">
+        <div class="container mx-auto px-4 max-w-6xl">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
+                <!-- 品牌信息 -->
+                <div class="md:col-span-1">
+                    <a href="https://www.1bgp.com/" class="text-3xl font-bold text-white mb-4 inline-block">BGP</a>
+                    <p class="text-sm mb-4">专注提供全球顶级云计算与服务器托管服务，以稳定的技术、极致优化的 CN2 线路，为您拓展东南亚市场保驾护航。</p>
+                    <div class="flex space-x-4">
+                        <a href="https://t.me/twbyte_tom" target="_blank" class="w-8 h-8 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary text-white transition"><i class="fa-brands fa-telegram"></i></a>
+                    </div>
+                </div>
+                
+                <!-- 快捷链接 -->
+                <div>
+                    <h4 class="text-white font-bold mb-4">产品服务</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="https://www.1bgp.com/index/server/" class="hover:text-white transition">新加坡云服务器</a></li>
+                        <li><a href="https://www.1bgp.com/index/server/" class="hover:text-white transition">新加坡裸金属</a></li>
+                        <li><a href="https://www.1bgp.com/index/server/" class="hover:text-white transition">东南亚高防专区</a></li>
+                        <li><a href="https://www.1bgp.com/index/server/" class="hover:text-white transition">大带宽流媒体专区</a></li>
+                    </ul>
+                </div>
+                
+                <!-- 客户支持 -->
+                <div>
+                    <h4 class="text-white font-bold mb-4">客户支持</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="https://www.1bgp.com/user/index/login.html" class="hover:text-white transition">控制台登录</a></li>
+                        <li><a href="https://www.1bgp.com/user/index/register.html" class="hover:text-white transition">注册新账号</a></li>
+                        <li><a href="https://t.me/twbyte_tom" target="_blank" class="hover:text-white transition">提交工单 / 在线客服</a></li>
+                        <li><a href="https://www.1bgp.com/" class="hover:text-white transition">服务条款 (TOS)</a></li>
+                    </ul>
+                </div>
+                
+                <!-- 联系方式 -->
+                <div>
+                    <h4 class="text-white font-bold mb-4">联系我们</h4>
+                    <ul class="space-y-3 text-sm">
+                        <li class="flex items-start">
+                            <i class="fa-solid fa-location-dot mt-1 mr-3 text-gray-500"></i>
+                            <span>亚太数据中心：新加坡, 香港</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fa-solid fa-phone mr-3 text-gray-500"></i>
+                            <span>+1 (256) 7331188</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fa-regular fa-envelope mr-3 text-gray-500"></i>
+                            <span>support@1bgp.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-sm">
+                <p>&copy; 2026 OneBGP. All Rights Reserved.</p>
+                <div class="mt-4 md:mt-0 space-x-4">
+                    <img src="https://img.shields.io/badge/Security-T4-blue" alt="T4 Data Center" class="inline-block h-6">
+                    <img src="https://img.shields.io/badge/Routing-CN2%2BBGP-green" alt="CN2 + BGP" class="inline-block h-6">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
